@@ -1,16 +1,14 @@
----
----
 <!doctype html>
 <html lang="en">
 
 <head>
 
   <meta charset="utf-8">
-  <meta name="keywords" content="concrete, concrete.css, CSS, style, minimal, simple, framework, microframework, classless, stylesheet">
-  <meta name="author" content="Louis Merlin">
-  <meta name="description" content="A simple and to the point classless CSS stylesheet">
+  <meta name="keywords" content="beton, beton.css, CSS, style, minimal, simple, framework, microframework, classless, stylesheet">
+  <meta name="author" content="Marko Murgelj">
+  <meta name="description" content="A styled fork of concrete.css - a simple and to the point classless CSS stylesheet">
 
-  <title>concrete.css</title>
+  <title>beton.css</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,15 +16,11 @@
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
-  <link rel="stylesheet" href="https://unpkg.com/concrete.css@2.1.1/concrete.css">
+  <link rel="stylesheet" href="beton.css">
 
   <meta name="theme-color" content="#ffffff">
   
   <style>
-    .badge {
-      height: 3.5rem;
-      border: .2rem solid #111;
-    }
     figure.highlight {
       margin-left: 0;
       margin-right: 0;
@@ -63,7 +57,7 @@
   <main>
 
     <header>
-      <h1>concrete.css</h1>
+      <h1>beton.css</h1>
       <p>A simple and to the point classless CSS stylesheet</p>
       <p>
         <a href="https://github.com/louismerlin/concrete.css"><button>GitHub</button></a>
@@ -80,30 +74,10 @@
       <p>Best used in pair with <a href="https://necolas.github.io/normalize.css/">normalize.css</a>.</p>
       <p>Inspired by <a href="https://milligram.io">Milligram</a> and <a href="http://getskeleton.com/">Skeleton</a>.</p>
       <p>
-        <a href="https://www.npmjs.com/package/concrete.css"><img async class="badge" alt="Version badge" src="https://img.shields.io/npm/v/concrete.css.svg?color=fff&labelColor=fff&style=flat-square" /></a>
-        <a href="https://bundlephobia.com/result?p=concrete.css"><img async class="badge" alt="Size badge" src="https://img.shields.io/bundlephobia/minzip/concrete.css.svg?color=fff&labelColor=fff&style=flat-square" /></a>
-        <a href="https://www.npmjs.com/package/concrete.css"><img async class="badge" alt="Downloads badge" src="https://img.shields.io/npm/dw/concrete.css.svg?color=fff&labelColor=fff&style=flat-square" /></a>
+        <mark><a href="https://www.npmjs.com/package/concrete.css">test</a></mark>
+        <mark><a href="https://bundlephobia.com/result?p=concrete.css">breat</a></mark>
+        <mark><a href="https://www.npmjs.com/package/concrete.css">shat</a></mark>
       </p>
-    </section>
-
-    <section>
-      <h2>Get Started</h2>
-      <h3>In your HTML <code>&lt;head&gt;</code></h3>
-      <p>Just drop these lines into your HTML head.</p>
-{% highlight html %}
-<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
-<link rel="stylesheet" href="https://unpkg.com/concrete.css@2.1.1/concrete.css">
-{% endhighlight %}
-      <h3>In your javascript project</h3>
-      <p>Add the dependencies:</p>
-{% highlight bash %}
-npm install normalize.css concrete.css
-{% endhighlight %}
-      <p>Import them somewhere in your code:</p>
-{% highlight js %}
-import 'normalize.css'
-import 'concrete.css'
-{% endhighlight %}
     </section>
 
     <section>
@@ -128,33 +102,6 @@ import 'concrete.css'
           <p>I can be <small>small</small>.</p>
         </div>
       </div>
-{% highlight html %}
-<h1>h1 heading</h1>
-<h2>h2 heading</h2>
-<h3>h3 heading</h3>
-<h4>h4 heading</h4>
-<h5>h5 heading</h5>
-<h6>h6 heading</h6>
-
-<p>
-  I can simply be a paragraph.
-</p>
-<p>
-  I can be <a href="./">a link</a>.
-</p>
-<p>
-  I can be <strong>bold</strong>.
-</p>
-<p>
-  I can be <u>underlined</u>.
-</p>
-<p>
-  I can be <em>emphasised</em>.
-</p>
-<p>
-  I can be <small>small</small>.
-</p>
-{% endhighlight %}
     </section>
 
     <section>
@@ -175,29 +122,6 @@ import 'concrete.css'
         The <code>&lt;footer&gt;</code> element will center the text inside of it.
         You can see an example at the bottom of this page.
       </p>
-{% highlight html %}
-<main>
-
-  <header>
-    <h1>
-      Title
-    </h1>
-  </header>
-
-  <section>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    </p>
-  </section>
-
-  <footer>
-    <p>
-      Thank you for reading !
-    </p>
-  </footer>
-
-</main>
-{% endhighlight %}
     </section>
 
     <section>
@@ -206,17 +130,6 @@ import 'concrete.css'
         <button>just a button</button>
         <button disabled>a disabled button</button>
       </p>
-      
-{% highlight html %}
-<a href="./"><button>a link button</button></a>
-<a href="./"><button disabled>a disabled link button</button></a>
-
-<button>a button</button>
-<button disabled>a disabled button</button>
-
-<input type="submit" value="an input submit button" />
-<input type="submit" disabled value="a disabled input submit button" />
-{% endhighlight %}
     </section>
 
     <section>
@@ -224,9 +137,6 @@ import 'concrete.css'
       <p>Simply add an image element, and voilà !</p>
       <img alt="Placeholder" src="https://picsum.photos/640/480?grayscale" />
 
-{% highlight html %}
-<img src="https://picsum.photos/640/480?grayscale" />
-{% endhighlight %}
     </section>
 
     <section>
@@ -244,23 +154,6 @@ import 'concrete.css'
         <dt>Description term</dt>
         <dd>Description detail</dd>
       </dl>
-
-{% highlight html %}
-<ul>
-  <li>Unordered element 1</li>
-  <li>Unordered element 2</li>
-</ul>
-
-<ol>
-  <li>Ordered element 1</li>
-  <li>Ordered element 2</li>
-</ol>
-
-<dl>
-  <dt>Description term</dt>
-  <dd>Description detail</dd>
-</dl>
-{% endhighlight %}
     </section>
 
     <section>
@@ -290,34 +183,6 @@ import 'concrete.css'
           <input type="submit" value="Send">
         </fieldset>
       </form>
-
-{% highlight html %}
-<form>
-  <fieldset>
-    <legend>Please enter your information</legend>
-
-    <label for="firstname">First Name</label>
-    <input type="text" name="firstname" id="firstname">
-
-    <label for="lastname">Last Name</label>
-    <input type="text" name="lastname" id="lastname">
-
-    <label for="os">Operating System</label>
-    <select name="os" id="os">
-      <option value="GNU/Linux">GNU/Linux</option>
-      <option value="MacOS">MacOS</option>
-      <option value="Windows">Windows</option>
-      <option value="Other">Other</option>
-    </select>
-
-    <label for="comment">Comment</label>
-    <textarea name="comment" id="comment" placeholder="Please leave a comment..."></textarea>
-
-    <input type="submit" value="Send">
-
-  </fieldset>
-</form>
-{% endhighlight %}
     </section>
 
     <section>
@@ -346,33 +211,6 @@ import 'concrete.css'
           </tr>
         </tbody>
       </table>
-
-{% highlight html %}
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Year</th>
-      <th>Size</th>
-      <th>Comment</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Skeleton</td>
-      <td>2011</td>
-      <td>5.7kB</td>
-      <td>Awesome</td>
-    </tr>
-    <tr>
-      <td>Milligram</td>
-      <td>2015</td>
-      <td>8.3kB</td>
-      <td>Amazing</td>
-    </tr>
-  </tbody>
-</table>
-{% endhighlight %}
     </section>
 
     <section>
@@ -380,30 +218,16 @@ import 'concrete.css'
       <blockquote>
         "I'm quoting myself" - <em>Louis Merlin</em>
       </blockquote>
-
-{% highlight html %}
-<blockquote>
-  "I'm quoting myself" - <em>Louis Merlin</em>
-</blockquote>
-{% endhighlight %}
     </section>
 
     <section>
       <h2>Progress Bar</h2>
       <progress value="40" max="100">40%</progress>
-
-{% highlight html %}
-<progress value="40" max="100">40%</progress>
-{% endhighlight %}
     </section>
 
     <section>
       <h2>Break line</h2>
       <hr/>
-
-{% highlight html %}
-<hr />
-{% endhighlight %}
     </section>
 
     <section>

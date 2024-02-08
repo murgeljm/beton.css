@@ -62,3 +62,6 @@ typings/
 
 # jekyll build
 _site
+
+# idea
+.idea
