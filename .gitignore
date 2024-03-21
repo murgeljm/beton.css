@@ -65,3 +65,5 @@ _site
 
 # idea
 .idea
+
+.DS_Store
